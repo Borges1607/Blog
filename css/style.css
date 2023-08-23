@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/holtwood-one-sc');
+
+#blogName{
+    font-family: 'Holtwood One SC', sans-serif;                                          
+}
+header{
+    min-height: 20vh;
+}
+#nav{
+    background-color: #000000;
+    width: 90vw;
+}
+#nav-container{
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 100%, transparent 50%);
+}
+.active{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+.active:hover{
+    color: black;
+}
+.horizontal-line {
+    border-top: 1px solid rgb(77, 203, 210);
+}
